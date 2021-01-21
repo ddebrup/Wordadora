@@ -1,0 +1,5 @@
+spacy=2.3.5
+nltk=3.4.5
+wordninja=2.0.0
+textstat=0.7.0
+
