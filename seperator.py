@@ -1,4 +1,4 @@
-def seperator(words):
+def seperator(final_Words):
 	import wordninja
 	Sep_words=[]
 	for word in final_Words:
