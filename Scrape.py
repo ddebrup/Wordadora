@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import re
 import spacy
 import nltk
+import textstat
 Newlines = re.compile(r'[\r\n]\s+')
 
 def getPageText(url):
@@ -82,7 +83,7 @@ def fin(words):
             li.append(syns[0].examples())
             wordle[word]=li
     
-       
+    ari_score()   
     store()
 
 def execute(words):
@@ -91,6 +92,26 @@ def execute(words):
     fin(words)
     words=[]
 
+def ari_score():
+    
+    score=[]
+    for word in wordle.keys():
+        score.append(textstat.automated_readability_index(word))
+    
+    for i in range(len(score)):
+        #print(word_list[i]," ",score[i])
+        wordle[word_list[i]].append(score[i])
+
+def fre_score():
+   
+    score=[]
+    for word in wordle.keys():
+        score.append(textstat.flesch_reading_ease(word))
+    
+    for i in range(len(score)):
+        #print(word_list[i]," ",score[i])
+        wordle[word_list[i]].append(score[i])
+    
 def store():
     import csv
     with open('wordstest.csv', 'w') as csv_file:  
