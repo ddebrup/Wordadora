@@ -83,7 +83,7 @@ def fin(words):
             li.append(syns[0].examples())
             wordle[word]=li
     
-    ari_score()   
+    ari_score(word_list)   
     store()
 
 def execute(words):
@@ -92,25 +92,18 @@ def execute(words):
     fin(words)
     words=[]
 
-def ari_score():
+def ari_score(word_list):
     
     score=[]
-    for word in wordle.keys():
-        score.append(textstat.automated_readability_index(word))
+    for i in range(len(word_list)):
+        score.append(textstat.automated_readability_index(word_list[i]))
     
-    for i in range(len(score)):
+    for i in range(len(word_list)):
         #print(word_list[i]," ",score[i])
         wordle[word_list[i]].append(score[i])
+        
+    return
 
-def fre_score():
-   
-    score=[]
-    for word in wordle.keys():
-        score.append(textstat.flesch_reading_ease(word))
-    
-    for i in range(len(score)):
-        #print(word_list[i]," ",score[i])
-        wordle[word_list[i]].append(score[i])
     
 def store():
     import csv
