@@ -38,7 +38,7 @@ Run the following script in bash over the cloned directory<br>
 ```
 pip install -r requirements.txt
 ```
-> PIP Install the Spacy Model 
+> To Install the Spacy Model 
 ```
 !python -m spacy download en_core_web_lg 
 ```
@@ -51,6 +51,9 @@ pip install -r requirements.txt
 
 > *OK* Button works to move forward</br>
 > To exit from particular modes *(eg. Returning from Practice Mode to Main Menu)*, Press **q** key, which can be followed by pressing the *Cancel* Button if necessary
+
+<p align="center">
+  <img width="460" height="300" src="https://github.com/ddebrup/Wordadora/blob/main/Images/Flowchart.png">
 
 ### Areas Currently Working On
 
