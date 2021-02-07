@@ -47,6 +47,11 @@ pip install -r requirements.txt
 
 > Voila! You are good to go. Follow in the instructions as they pop up in the screen
 
+### Instructions to Operate
+
+> *OK* Button works to move forward
+> To exit from particular modes *(eg. Returning from Practice Mode to Main Menu)*, Press **q** key, which can be followed by pressing the *Cancel* Button if necessary
+
 ### Areas to Work On
 
 > Score Generator with support to external training</br>
