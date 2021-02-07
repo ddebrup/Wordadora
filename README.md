@@ -21,7 +21,7 @@ Upon executing this module a GUI will pop up with corresponding instructions. Us
 <img align="right" alt="GIF" src="https://github.com/ddebrup/Wordadora/blob/main/Images/Practice.gif" width="550" height="320" />
 
 </br>
-~ PRACTICE - This mode lets it's users take an assessment test, wherein the definition of a random words gets displayed along with a few number of options containing different words to choose from. On selecting the right answer the user gets to move to the next question, on the contrary, when selected an incorrect answer the right word with it's definition gets popped into the screen.
+~ PRACTICE - This mode lets it's users take an assessment test, wherein the definition of a random words gets displayed along with a few number of options containing different words to choose from. On selecting the right answer the user gets to move to the next question, on the contrary, when selected an incorrect answer the right word with it's definition gets popped into the screen. Since the main aim of this project is to build an individual's vocabulary and not just test it.
 
 
 
