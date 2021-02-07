@@ -49,7 +49,7 @@ pip install -r requirements.txt
 
 ### Instructions to Operate
 
-> *OK* Button works to move forward
+> *OK* Button works to move forward</br>
 > To exit from particular modes *(eg. Returning from Practice Mode to Main Menu)*, Press **q** key, which can be followed by pressing the *Cancel* Button if necessary
 
 ### Areas to Work On
