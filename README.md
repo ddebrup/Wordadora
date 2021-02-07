@@ -16,9 +16,9 @@ Spacy module has been used to detect the regular expressions and parts of speech
 Upon executing this module a GUI will pop up with corresponding instructions. Users can choose to Learn or Practice as per their necessity. The details of both the modes of operations are as follows -</br>
 <img align="left" alt="GIF" src="https://github.com/ddebrup/Wordadora/blob/main/Images/Learn02.gif" width="450" height="250" />
 </br>
-~ LEARN - *This mode offers to it's users the ability to learn new words, depending on the chosen difficulty level\*. When selected, the users get to choose from a particular set the interval values, after which every new word gets popped up with their meanings and usage in a notification format.*</br>
+~ LEARN - *This mode offers to it's users the ability to learn new words, depending on the chosen difficulty level+. When selected, the users get to choose from a particular set the interval values, after which every new word gets popped up with their meanings and usage in a notification format.*</br>
 <img align="right" alt="GIF" src="https://github.com/ddebrup/Wordadora/blob/main/Images/Practice.gif" width="550" height="320" />
-\*Drawn from scores calculated in Module 1 - Form
++Drawn from scores calculated in Module 1 - Form
 </br>
 ~ PRACTICE - *This mode lets it's users take an assessment test, wherein the definition of a random words gets displayed along with a few number of options containing different words to choose from. On selecting the right answer the user gets to move to the next question, on the contrary, when selected an incorrect answer the right word with it's definition gets popped into the screen.*
 
