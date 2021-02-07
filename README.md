@@ -8,12 +8,13 @@ Read some books, articles, or blogs, and came across some new words? Wanna know 
 Wordadora houses the capability to scrape off words, as per the user choice, from a set of given website URLs, which ultimately owes to the development of the primary word-base, upon which the different fangs of the app works on. The scrapped words results through a series of different steps/ operations, with finally getting stored into a CSV file against their score values into the app directory. This in a way aids it's way to becoming and functioning as a Database Independent routine.
 
 As of now, the scoring systems exploited towards levelling of the words, correspond to the using the readibilty index scorings, offered in the 'textstat' module. The users have an option to choose from the metrics of flesch reading ease and automated readability index, after which the words appear in different hardness levels. Also available in the house is the Flesch-Kincaid method which have not made it's way into the scoring calculation yet. Considerations of adding a feature involving human interference towards effective calculation of word scores have already been made into the context, and am working on it.
-
+![](https://github.com/ddebrup/Wordadora/blob/main/Images/Learn01.gif)  |  ![](https://github.com/ddebrup/Wordadora/blob/main/Images/Learn02.gif)
 Spacy module has been used to detect the regular expressions and parts of speech from the unstructured scraped text, which then makes into the score calculation module. Several techniques such as Lemmatization are applied onto the unstructured text before they are fed into the other modules.
 
 ### Module 2 - Execute 
 <p align="center">
-<img alt="GIF" src="https://github.com/ddebrup/Wordadora/blob/main/Images/Learn01.gif" width="450" height="250" />
+<img align="left" alt="GIF" src="https://github.com/ddebrup/Wordadora/blob/main/Images/Learn01.gif" width="50%" height="50%" />
+ <img align="right" alt="GIF" src="https://github.com/ddebrup/Wordadora/blob/main/Images/Learn02.gif" width="50%" height="50%" />
  </p>
 Upon executing this module a GUI will pop up with corresponding instructions. Users can choose to Learn or Practice as per their necessity. The details of both the modes of operations are as follows </br>
 <img align="center" alt="GIF" src="https://github.com/ddebrup/Wordadora/blob/main/Images/Learn02.gif" width="450" height="250" />
