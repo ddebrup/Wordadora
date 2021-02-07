@@ -2,4 +2,9 @@ spacy=2.3.5
 nltk=3.4.5
 wordninja=2.0.0
 textstat=0.7.0
+json5==0.9.5
+PySimpleGUI==4.34.0
+plyer==2.0.0
+pynput ==1.7.2
+beautifulsoup4==4.9.3
 
