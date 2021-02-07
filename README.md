@@ -1,6 +1,6 @@
 # Wordadora - Vocabulary Builder
 ## The next-door Vocabulary Teacher
-Read some books, articles or blogs, and came across some new words? Wanna know what they meant? Wordadora comes to your rescue.
+Read some books, articles, or blogs, and came across some new words? Wanna know what they meant? Wordadora comes to your rescue.
 
 #### Wordadora is your next-door Vocabulary Teacher, built into codes, made with love, just for you! With it offering a range of smart features, the main word base upon which it functions on can be modified as per the user choice.
 
@@ -17,7 +17,8 @@ Upon executing this module a GUI will pop up with corresponding instructions. Us
 <img align="left" alt="GIF" src="https://github.com/ddebrup/Wordadora/blob/main/Images/Learn02.gif" width="550" height="320" />
 ~ LEARN - This mode offers to it's users the ability to learn new words, depending on the chosen difficulty level*. When selected, the users get to choose from a particular set the interval values, after which every new word gets popped up with their meanings and usage in a notification format.</br>
 <img align="right" alt="GIF" src="https://github.com/ddebrup/Wordadora/blob/main/Images/Practice.gif" width="550" height="320" />
-</br>~ PRACTICE - This mode lets it's users take an assessment test, wherein the definition of a random words gets displayed along with a few number of options containing different words to choose from. On selecting the right answer the user gets to move to the next question, on the contrary, when selected an incorrect answer the right word with it's definition gets popped into the screen.
+</br></br></br></br></br></br></br></br></br>
+~ PRACTICE - This mode lets it's users take an assessment test, wherein the definition of a random words gets displayed along with a few number of options containing different words to choose from. On selecting the right answer the user gets to move to the next question, on the contrary, when selected an incorrect answer the right word with it's definition gets popped into the screen.
 
 
 
