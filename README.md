@@ -52,7 +52,7 @@ pip install -r requirements.txt
 > *OK* Button works to move forward</br>
 > To exit from particular modes *(eg. Returning from Practice Mode to Main Menu)*, Press **q** key, which can be followed by pressing the *Cancel* Button if necessary
 
-### Areas to Work On
+### Areas Currently Working On
 
 > Score Generator with support to external training</br>
 > Auto Mode to detect Learn or Practice Mode automatically</br>
