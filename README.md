@@ -21,13 +21,11 @@ Spacy module has been used to detect the regular expressions and parts of speech
 Upon executing this module a GUI will pop up with corresponding instructions. Users can choose to Learn or Practice as per their necessity. The details of both the modes of operations are as follows </br>
 
 
-~ **LEARN** - *This mode offers to it's users the ability to learn new words, depending on the chosen difficulty level. When selected, the users get to choose from a particular set the interval values, after which every new word gets popped up with their meanings and usage in a notification format.*
-</br>
+~ **LEARN** - *This mode offers to it's users the ability to learn new words, depending on the chosen difficulty level. When selected, the users get to choose from a particular set the interval values, after which every new word gets popped up with their meanings and usage in a notification format.* </br>
+~ **PRACTICE** - *This mode lets it's users take an assessment test, wherein the definition of a random words gets displayed along with a few number of options containing different words to choose from. On selecting the right answer the user gets to move to the next question, on the contrary, when selected an incorrect answer the right word with it's definition gets popped into the screen. Since the main aim of this project is to build an individual's vocabulary and not just test it.* </br>
 <p align="center">
   <img width="460" height="300" src="https://github.com/ddebrup/Wordadora/blob/main/Images/Practice.gif">
-</p>
-</br>
-~ **PRACTICE** - *This mode lets it's users take an assessment test, wherein the definition of a random words gets displayed along with a few number of options containing different words to choose from. On selecting the right answer the user gets to move to the next question, on the contrary, when selected an incorrect answer the right word with it's definition gets popped into the screen. Since the main aim of this project is to build an individual's vocabulary and not just test it.*
+</p> </br>
 
 
 
@@ -38,10 +36,4 @@ Upon executing this module a GUI will pop up with corresponding instructions. Us
 
 
 
-Wordadora houses some exclusive features to effectively help boost an individual's vocabulary set with the flexibility to personalise the word base. With characteristics such as different modes to train from, Wordadora possesses some of the most extensive of features to it's offerings.
-
-
-</br>
-
-</br>
 
