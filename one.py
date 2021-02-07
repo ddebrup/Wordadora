@@ -44,6 +44,7 @@ def genwrd(txt):
         #new_sentences.append(" ".join(new_sentence))
     return words
 
+# Seperating individual words out
 def seperate(words):
     final_Words=[]
     for word in words:
@@ -51,7 +52,8 @@ def seperate(words):
             final_Words.append(word)
     return final_Words
 
-def Lemmatize(Sep_words):
+# Lemmatizing words 
+def Lemmatiz(Sep_words):
     from nltk.stem import WordNetLemmatizer 
     words=[] 
     lemmatizer = WordNetLemmatizer() 
@@ -60,49 +62,46 @@ def Lemmatize(Sep_words):
     return words
 
 
-
+# Final Controller Module
 def fin(words):
     word_list = []
     global wordle
     if 'wordle' not in globals():
         wordle = {}    
-    excepted = []
-    definition = []
-    example = []
+    #excepted = []
+    #definition = []
+    #example = []
     from nltk.corpus import wordnet 
+    import textstat
+
+
     for word in words:
         syns = wordnet.synsets(word.lower())
         if not syns:
-            excepted.append(word)
+            continue
         else:
-            li=[]
-            word_list.append(word)
-            definition.append(syns[0].definition())
-            example.append(syns[0].examples())
-            li.append(syns[0].definition())
-            li.append(syns[0].examples())
-            wordle[word]=li
+            #li=[]
+            #word_list.append(word)
+    #        #definition.append(syns[0].definition())
+    #        #example.append(syns[0].examples()[0])
+    #        li.append(syns[0].definition())
+        
+            #li.append(textstat.automated_readability_index(word.lower()))
+            
+            wordle[word]=textstat.automated_readability_index(word.lower())
     
-    ari_score(word_list)   
-    store()
+      
+    jso()
 
 def execute(words):
     words_sep=seperate(words)
-    words=Lemmatize(words_sep)
+    words=Lemmatiz(words_sep)
     fin(words)
     words=[]
 
-def ari_score(word_list):
-    
-    score=[]
-    for i in range(len(word_list)):
-        score.append(textstat.automated_readability_index(word_list[i]))
-    
-    for i in range(len(word_list)):
-        #print(word_list[i]," ",score[i])
-        wordle[word_list[i]].append(score[i])
+
         
-    return
+    
 
     
 def store():
@@ -111,6 +110,11 @@ def store():
         writer = csv.writer(csv_file)
         for key, value in wordle.items():
                writer.writerow([key, value])
+                
+def jso():
+    import json
+    
+    json.dump(wordle, open("wordlist.txt",'w'))
  
 
     
