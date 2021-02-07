@@ -87,7 +87,7 @@ def fin(words):
     #        li.append(syns[0].definition())
         
             #li.append(textstat.automated_readability_index(word.lower()))
-            
+	   # wordle[word]=textstat.flesch_reading_ease(word.lower())            
             wordle[word]=textstat.automated_readability_index(word.lower())
     
       
