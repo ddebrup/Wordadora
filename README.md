@@ -2,7 +2,7 @@
 #### *~The next-door Vocabulary Teacher*
 Read some books, articles, or blogs, and came across some new words? Wanna felt like knowing their meanings? Wordadora comes to your rescue.
 
-#### Wordadora is your next-door Vocabulary Teacher, built into codes, made with love, just for you! With it offering a range of smart features, the main word base upon which it functions on can be modified as per the user choice.
+#### Wordadora is your next-door Vocabulary Teacher, built with love, just for you! With it offering a range of smart features, the main word base upon which it functions on can be modified as per the user choice.
 
 ### Module 1 - Form
 Wordadora houses the capability to scrape off words, as per the user choice, from a set of given website URLs, which ultimately owes to the development of the primary word-base, upon which the different fangs of the app works on. The scrapped words results through a series of different steps/ operations, with finally getting stored into a CSV file against their score values into the app directory. This in a way aids it's way to becoming and functioning as a Database Independent routine.
