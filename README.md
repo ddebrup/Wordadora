@@ -23,7 +23,9 @@ Upon executing this module a GUI will pop up with corresponding instructions. Us
 
 ~ LEARN - This mode offers to it's users the ability to learn new words, depending on the chosen difficulty level. When selected, the users get to choose from a particular set the interval values, after which every new word gets popped up with their meanings and usage in a notification format.
 </br>
-<img align="right" alt="GIF" src="https://github.com/ddebrup/Wordadora/blob/main/Images/Practice.gif" width="550" height="320" />
+<p align="center">
+  <img width="460" height="300" src="https://github.com/ddebrup/Wordadora/blob/main/Images/Practice.gif">
+</p>
 
 </br>
 ~ PRACTICE - This mode lets it's users take an assessment test, wherein the definition of a random words gets displayed along with a few number of options containing different words to choose from. On selecting the right answer the user gets to move to the next question, on the contrary, when selected an incorrect answer the right word with it's definition gets popped into the screen. Since the main aim of this project is to build an individual's vocabulary and not just test it.
