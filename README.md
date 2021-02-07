@@ -53,7 +53,7 @@ pip install -r requirements.txt
 > To exit from particular modes *(eg. Returning from Practice Mode to Main Menu)*, Press **q** key, which can be followed by pressing the *Cancel* Button if necessary
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/ddebrup/Wordadora/blob/main/Images/Flowchart.png">
+  <img width="100%" height="100%" src="https://github.com/ddebrup/Wordadora/blob/main/Images/Flowchart.png">
 
 ### Areas Currently Working On
 
