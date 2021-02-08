@@ -1,6 +1,6 @@
 # Wordadora - Vocabulary Builder 
 #### *~The next-door Vocabulary Teacher*
-Read some books, articles, or blogs, and came across some new words? Wanna felt like knowing their meanings? Wordadora comes to your rescue.
+Read some books, articles, or blogs, and came across some new words? Wanna felt an urge to know their meanings? Thought of searching for their meanings later and eventually ended up forgetting them? Wordadora comes to your rescue.
 
 #### Wordadora is your next-door Vocabulary Teacher, built with love, just for you! With it offering a range of smart features, the main word base upon which it functions on can be modified as per the user choice.
 
